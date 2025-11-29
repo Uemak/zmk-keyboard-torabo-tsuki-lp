@@ -40,7 +40,7 @@
 &trans       &trans     &trans     &trans     &trans     &trans                     &trans     &trans          &trans          &trans           &trans                &trans
 &trans       &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                     &kp F6     &kp F8          &kp UP_ARROW    &kp F9           &kp F11               &kp F12
 &kp LG(TAB)  &kp LG(A)  &kp LG(S)  &kp LG(D)  &mkp RCLK  &mkp LCLK  &trans  &trans  &kp F7     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F10               &trans
-&trans       &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans     &trans  &trans  &kp LG(N)  &trans          &trans          &trans           &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)
+&trans       &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans     &trans  &trans  &kp LG(N)  &kp BACKSPACE   &trans          &trans           &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)
 &trans       &trans     &trans     &trans     &trans     &trans     &trans  &trans  &trans     &trans          &trans          &trans           &trans                &trans
             >;
         };
