@@ -28,21 +28,21 @@
 
         layer_0 {
             bindings = <
-&none      &none      &none         &none             &none             &none                                         &none           &none  &none      &none      &none                 &none
-&kp ESC    &kp Q      &kp W         &kp E             &kp R             &kp T                                         &kp Y           &kp U  &kp I      &kp O      &kp P                 &kp NON_US_BACKSLASH
-&kp TAB    &kp A      &kp S         &kp D             &kp F             &kp G        &none           &none            &kp H           &kp J  &kp K      &kp L      &kp SEMI              &kp ENTER
-&kp LSHFT  &kp Z      &kp X         &kp C             &kp V             &kp B        &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp N           &kp M  &kp COMMA  &kp DOT    &mt RIGHT_SHIFT FSLH  &kp SQT
-&kp LCTRL  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANGUAGE_1  &lt 3 SPACE  &lt 2 ENTER     &kp BACKSPACE    &kp LANGUAGE_2  &none  &none      &kp MINUS  &kp EQUAL             &kp GRAVE
+&trans     &trans     &trans        &trans            &trans            &trans                                        &trans          &trans  &trans     &trans     &trans                &trans
+&kp ESC    &kp Q      &kp W         &kp E             &kp R             &kp T                                         &kp Y           &kp U   &kp I      &kp O      &kp P                 &kp NON_US_BACKSLASH
+&kp TAB    &kp A      &kp S         &kp D             &kp F             &kp G        &trans          &trans           &kp H           &kp J   &kp K      &kp L      &kp SEMI              &kp ENTER
+&kp LSHFT  &kp Z      &kp X         &kp C             &kp V             &kp B        &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp N           &kp M   &kp COMMA  &kp DOT    &mt RIGHT_SHIFT FSLH  &kp SQT
+&kp LCTRL  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANGUAGE_1  &lt 3 SPACE  &lt 2 ENTER     &kp BACKSPACE    &kp LANGUAGE_2  &trans  &trans     &kp MINUS  &kp EQUAL             &kp GRAVE
             >;
         };
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &mkp RCLK  &mkp LCLK  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans                     &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &kp F1  &trans  &trans  &trans     &trans                     &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &mkp RCLK  &mkp LCLK  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
             >;
         };
 
