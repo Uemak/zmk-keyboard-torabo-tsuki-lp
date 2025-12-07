@@ -5,9 +5,14 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &trackball_listener {
+    input-processors = <&zip_xy_scaler 2 3>;
+
     scroller {
         layers = <3>;
-        input-processors = <&zip_xy_to_scroll_mapper>;
+        input-processors = <
+            &zip_xy_to_scroll_mapper
+            &zip_scroll_scaler 1 2
+        >;
     };
 };
 
