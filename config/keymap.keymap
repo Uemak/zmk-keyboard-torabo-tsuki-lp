@@ -51,10 +51,10 @@
 
         layer_2 {
             bindings = <
-&kp GRAVE         &trans            &trans            &trans            &trans            &trans                            &trans            &trans            &trans            &trans             &trans  &trans
-&trans            &trans            &trans            &trans            &trans            &trans                            &trans            &trans            &trans            &trans             &trans  &trans
-&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp LS(NUMBER_6)  &trans  &trans  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)   &trans  &trans
-&trans            &trans            &trans            &trans            &trans            &trans            &trans  &trans  &kp LS(MINUS)     &kp LS(EQUAL)     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans
+&kp GRAVE  &trans            &trans            &trans            &trans            &trans                            &trans            &trans            &trans            &trans             &trans            &trans
+&trans     &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                  &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)   &kp LS(NUMBER_0)  &trans
+&trans     &trans            &trans            &trans            &trans            &trans            &trans  &trans  &trans            &trans            &kp LS(NUMBER_9)  &kp LS(NUMBER_0)   &trans            &trans
+&trans     &trans            &trans            &trans            &trans            &trans            &trans  &trans  &trans            &trans            &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans            &trans
 &trans            &trans            &trans            &trans            &trans            &trans            &trans  &trans  &trans            &trans            &trans            &bt BT_CLR_ALL     &trans  &trans
             >;
         };
